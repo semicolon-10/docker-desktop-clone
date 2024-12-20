@@ -1,0 +1,46 @@
+.image-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.image-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button.run {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+.action-button.remove {
+    background-color: #ff4d4d;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.terminal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 10px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.terminal-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.terminal-logs {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    color: #00ff00;
+}
+
+.log-line {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

@@ -1,0 +1,94 @@
+.container-list-wrapper {
+    padding: 20px;
+}
+
+.container-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.container-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.action-button.stop {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.action-button.kill {
+    background-color: #d9534f;
+    color: white;
+}
+
+.action-button.logs {
+    background-color: #5bc0de;
+    color: white;
+}
+
+.action-button:hover {
+    opacity: 0.9;
+}
+
+.logs-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logs-modal-content {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-height: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-button {
+    align-self: flex-end;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.close-button:hover {
+    opacity: 0.9;
+}
